@@ -46,10 +46,10 @@ module.exports = {
 
       Object.keys(categories).forEach((category) => {
         if (category !== "info") {
-          msg += ` \n☪️【 ${category.toUpperCase()} 】☪️`;
+          msg += ` \n✦【 ${category.toUpperCase()} 】✦`;
 const names = categories[category].commands.sort();
           for (let i = 0; i < names.length; i += 3) {
-            const cmds = names.slice(i, i + 3).map((item) => `\n〉☯️${item}|`);
+            const cmds = names.slice(i, i + 3).map((item) => `\n ✔${item}|`);
             msg += ` ${cmds.join(" ".repeat(Math.max(1, 10 - cmds.join("").length)))}`;
           }
 
@@ -58,7 +58,7 @@ const names = categories[category].commands.sort();
       });
 
       const totalCommands = commands.size;
-      msg += `🔖𝗧𝗢𝗧𝗔𝗟 𝗖𝗺𝗱 [${totalCommands}📑]\n\n 𝐏𝐇𝐀𝐑𝐎𝐔𝐊:\n[𝙂𝙤𝙖𝙩𝙗𝙤𝙩-𝙑𝟮]\n\n In any Request or Problem just type\ncallad]`;
+      msg += `\n\n🔖𝗧𝗢𝗧𝗔𝗟 𝗖𝗺𝗱 [${totalCommands}📑]\n\n 𝐏𝐇𝐀𝐑𝐎𝐔𝐊:\n[𝙂𝙤𝙖𝙩𝙗𝙤𝙩-𝙑𝟮]\n\n In any Request or Problem just type\ncallad]`;
       msg += ``;
       msg += ``; // its not decoy so change it if you want 
 
