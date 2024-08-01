@@ -4,7 +4,7 @@ const fetch = require('node-fetch');
 module.exports = {
   config: {
     name: "stats",
-    aliases: ["stats"],
+    aliases: ["stats","s"],
     version: "1.3",
     author: "pharouk",// please don't change the credit
     role: 0,
