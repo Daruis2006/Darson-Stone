@@ -23,7 +23,7 @@ module.exports = {
         return;
       }
 
-      const loadingMessage = "𝗪𝗔𝗜𝗧 𝗕𝗢𝗦𝗦 \n[🟢⚪🔵]";
+      const loadingMessage = "𝗪𝗔𝗜𝗧 𝗕𝗢𝗦𝗦\n[🟠⚪🟢]...";
       const loadingResponse = await api.sendMessage(loadingMessage, event.threadID);
 
       // Get users and threads
