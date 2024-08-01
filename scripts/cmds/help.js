@@ -63,8 +63,10 @@ const names = categories[category].commands.sort();
       msg += ``; // its not decoy so change it if you want 
 
       const helpListImages = [
-"https://i.postimg.cc/HW0P8x4c/9f6bb2e69331cbc23672802f96dba34e.jpg"
-  ];
+"https://i.ibb.co/FwS98Hn/image.jpg",
+ "https://i.ibb.co/Hg2xPCj/image.jpg",     
+  "https://i.ibb.co/TB64hhJ/image.jpg",
+   "https://i.ibb.co/BBzvzck/image.jpg" ];
 
       const helpListImage = helpListImages[Math.floor(Math.random() * helpListImages.length)];
 
