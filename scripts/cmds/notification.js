@@ -37,7 +37,7 @@ https://www.facebook.com/thegodess.aesther`,
 		async function sendMessage(thread) {
 			try {
 				await api.sendMessage(
-					`》𝗕𝗢𝗧-𝗔𝗗𝗠𝗜𝗡 | 💬 :\n\n✦[${custom}]🌸\n\n━━━━━𝙰𝙴𝚂𝚃𝙷𝙴𝚁`,
+					`💬|𝗕𝗢𝗧»𝗔𝗗𝗠𝗜𝗡  :\n\n✦[${custom}]✴\n\n━━━━━𝐇𝐔𝐍𝐓𝐄𝐑 𝐋𝐈𝐍𝐄»🌐`,
 					thread.threadID
 				);
 				sentCount++;
@@ -80,7 +80,7 @@ https://www.facebook.com/thegodess.aesther`,
 		}
 
 		if (sentCount > 0) {
-			api.sendMessage(`› Sent the notification successfully.`, event.threadID);
+			api.sendMessage(`📩 Sent the notification successfully.`, event.threadID);
 		} else {
 			api.sendMessage(
 				"› No eligible group threads found to send the message to.",
