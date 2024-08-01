@@ -1,4 +1,4 @@
-∆cmd install uptime.js const fs = require('fs');
+ const fs = require('fs');
 const fetch = require('node-fetch');
 
 module.exports = {
