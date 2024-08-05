@@ -12,7 +12,7 @@ const fonts = {
 };
 
 const Prefixes = [
-  'raven', 'ai', 'bot', 'ask', 'darson', 'daruis', 'darius','mld'
+  'raven', 'ai', 'bot', 'ask', 'darson', 'daruis', 'darius','Neerela'
 ];
 
 module.exports = {
