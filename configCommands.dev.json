@@ -1,13 +1,13 @@
 {
 	"commandBanned": {},
 	"envGlobal": {
-		"weatherApiKey": "e795ae6a0d44aaa8abb1a0a7ac19e4",
+		"weatherApiKey": "d7e795ae6a0d44aaa8abb1a0a7ac19e4",
 		"goatbotApikey": ""
 	},
 	"envCommands": {
 		"daily": {
 			"rewardDay1": {
-				"coin": 100,
+				"coin": 2500,
 				"exp": 10
 			}
 		},
