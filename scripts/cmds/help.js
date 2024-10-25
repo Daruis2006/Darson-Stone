@@ -3,7 +3,7 @@ const axios = require("axios");
 const path = require("path");
 const { getPrefix } = global.utils;
 const { commands, aliases } = global.GoatBot;
-const doNotDelete = "[ 🐐 | GoatBot V2 ]"; // changing this wont change the goatbot V2 of list cmd it is just a decoyy
+const doNotDelete = "[ 🐐 | 𝗠𝗜-😇 ]"; // changing this wont change the goatbot V2 of list cmd it is just a decoyy
 
 module.exports = {
   config: {
@@ -34,7 +34,7 @@ module.exports = {
       const categories = {};
       let msg = "";
 
-      msg += `[💬»𝗛𝗨𝗡𝗧𝗘𝗥]\n[(　・ω・)⊃-[二二]𝗟𝗜𝗦𝗧]\n┏━━━━━━━━━┓`// rep𝙡ace with your name 
+      msg += `[💬»𝗠𝗜]\n[𝖬𝖺 𝗅𝗂𝗌𝗍𝖾 𝖺̀ 𝗏𝗈𝗍𝗋𝖾 𝖽𝗂𝗌𝗉𝗈𝗌𝗂𝗍𝗂𝗈𝗇]\n┏━━━━━━━━━┓`// rep𝙡ace with your name 
 
       for (const [name, value] of commands) {
         if (value.config.role > 1 && role < value.config.role) continue;
@@ -58,7 +58,7 @@ const names = categories[category].commands.sort();
       });
 
       const totalCommands = commands.size;
-      msg += `\n\n🔖𝗧𝗢𝗧𝗔𝗟 𝗖𝗺𝗱 [${totalCommands}📑]\n\n 𝐏𝐇𝐀𝐑𝐎𝐔𝐊:\n[𝙂𝙤𝙖𝙩𝙗𝙤𝙩-𝙑𝟮]\n\n In any Request or Problem just type\ncallad]`;
+      msg += `\n\n🔖𝗧𝗢𝗧𝗔𝗟 𝗖𝗺𝗱 [${totalCommands}📑]\n\n𝖣𝖠𝖱𝖨𝖴𝖲:\n[𝗠𝗜]\n\n 𝖲𝗂 𝗏𝗈𝗎𝗌 𝗋𝖾𝗇𝖼𝗈𝗇𝗍𝗋𝖾𝗓 𝗎𝗇 𝗊𝗎𝖾𝗅𝖼𝗈𝗇𝗊𝗎𝖾 𝗉𝗋𝗈𝖻𝗅𝖾̀𝗆𝖾, 𝗏𝖾𝗎𝗂𝗅𝗅𝖾𝗓 𝖼𝗈𝗇𝗍𝖺𝖼𝗍𝖾𝗋 𝗆𝗈𝗇 𝗆𝖺𝗂̂𝗍𝗋𝖾.\ncallad]`;
       msg += ``;
       msg += ``; // its not decoy so change it if you want 
 
